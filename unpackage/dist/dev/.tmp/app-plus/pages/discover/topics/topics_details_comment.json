@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "查看全部评论",
+  "usingComponents": {
+    "input_detail": "/pages/discover/topics/input_detail",
+    "comm-item": "/pages/playPage/commentItem"
+  }
+}

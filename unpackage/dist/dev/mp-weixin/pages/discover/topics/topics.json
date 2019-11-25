@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "media-list": "/pages/discover/topics/mediaList"
+  },
+  "component": true
+}

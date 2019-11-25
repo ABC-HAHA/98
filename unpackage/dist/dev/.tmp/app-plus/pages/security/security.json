@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "账户与安全",
+  "scrollIndicator": "none",
+  "titleNView": {
+    "splitLine": {
+      "color": "#C1C1C1",
+      "height": "1px"
+    }
+  },
+  "usingComponents": {}
+}

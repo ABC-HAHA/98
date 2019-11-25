@@ -1,0 +1,20 @@
+{
+  "navigationBarTitleText": "兑换中心",
+  "scrollIndicator": "none",
+  "nvueCompiler": "uni-app",
+  "subNVues": [
+    {
+      "id": "exchangeRule",
+      "type": "popup",
+      "path": "pages/task/subNvue/prizeRule",
+      "style": {
+        "width": "100%",
+        "height": "100%",
+        "background": "rgba(0,0,0,0)"
+      }
+    }
+  ],
+  "usingComponents": {
+    "task-item": "/pages/task/taskItem"
+  }
+}

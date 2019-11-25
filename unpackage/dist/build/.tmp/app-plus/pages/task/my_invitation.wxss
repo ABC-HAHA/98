@@ -1,0 +1,136 @@
+
+.my_invitation_head{
+	width:750rpx;
+	height:280rpx;
+	background:rgba(36,138,223,1);
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center; 
+	-webkit-box-pack: center; 
+	-webkit-justify-content: center; 
+	    -ms-flex-pack: center; 
+	        justify-content: center;
+	position: fixed;
+}
+.my_invitation_head_left{
+	width: 450rpx;
+}
+.my_invitation_head_left_title{
+	font-size:24rpx;
+	color:rgba(255,255,255,1)
+}
+.my_invitation_head_left_number{
+	margin-top: 30rpx;
+	font-size:50rpx;
+	color:rgba(255,255,255,1);
+}
+.my_invitation_head_right{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	width:140rpx;
+	height:60rpx;
+	background:rgba(255,255,255,1);
+	border-radius:10rpx;
+	font-size:32rpx;
+	color:rgba(36,138,223,1);
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.my_invitation_list_title{
+	width: 690rpx;
+	font-size:32rpx;
+	color:rgba(45,45,45,1);
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+	margin-bottom: 20rpx;
+	position: fixed;
+	margin-top:280rpx;
+	background-color: #FFFFFF;
+	line-height: 80rpx;
+}
+.my_invitation_list_title_left{
+	width: 330rpx;
+}
+.my_invitation_list_title_right{
+	width: 270rpx;
+}
+.my_invitation_list{
+	padding-top: 360rpx;
+}
+.my_invitation_list_item{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	line-height: 90rpx;
+	/* padding-top: 320upx; */
+}
+.my_invitation_list_item_name{
+	width: 320rpx;
+	font-size:26rpx;
+	color:rgba(45,45,45,1);
+}
+.my_invitation_list_item_time{
+	width: 330rpx;
+	font-size:26rpx;
+	color:rgba(136,136,136,1);
+}
+.nodata_group{
+	height: 500rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.nodata{
+	width: 374rpx;
+	height: 390rpx;
+	margin: 0rpx auto;
+}
+

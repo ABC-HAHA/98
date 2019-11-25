@@ -1,0 +1,88 @@
+
+.help{
+    width: 100%;
+    height: 100rpx;
+    border-bottom: 1px solid #E3E3E3;
+    -webkit-transition: height 0.5s;
+    -o-transition: height 0.5s;
+    transition: height 0.5s;
+    overflow: hidden;
+}
+.help.tapOne{
+    height: 310rpx
+}
+.help-item{
+    width: 690rpx;
+    height: 100rpx;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.help-item-text{
+    font-size: 30rpx;
+    font-family: PingFang-SC-Medium;
+    font-weight: 500;
+    color: #2D2D2D;
+}
+.help-item>image{
+    width: 30rpx;
+    height: 16rpx;
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: -webkit-transform 0.3s;
+    -o-transition: transform 0.3s;
+    transition: transform 0.3s;
+    transition: transform 0.3s, -webkit-transform 0.3s;
+}
+.help.tapOne image{
+    -webkit-transform: rotate(-180deg);
+        -ms-transform: rotate(-180deg);
+            transform: rotate(-180deg);
+}
+.help-content{
+    width: 100%;
+    height: 208rpx;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.help-content-text{
+    width: 675rpx;
+    font-size: 26rpx;
+    font-family: PingFang-SC-Medium;
+    font-weight: 500;
+    color: #666666;
+    line-height: 36rpx;
+}
+.toFeed{
+    width: 100%;
+    height: 80rpx;
+    background: #248ADF;
+    color: #FFFFFF;
+    line-height: 80rpx;
+    text-align: center;
+    font-size: 30rpx;
+    position: fixed;
+    z-index: 3;
+    left: 0;
+    bottom: 0;
+}
+

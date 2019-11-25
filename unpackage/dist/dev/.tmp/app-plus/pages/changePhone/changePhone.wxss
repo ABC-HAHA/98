@@ -1,0 +1,130 @@
+
+.placeholder-style{
+    font-size: 24rpx;
+    font-family: PingFang-SC-Regular;
+    font-weight: 400;
+    color: #949494;
+}
+.phone{
+    padding: 36rpx 48rpx 0 46rpx;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+.phone-text{
+    font-size: 24rpx;
+    font-family: PingFang-SC-Medium;
+    font-weight: 500;
+    color: #616161;
+    margin-bottom: 30rpx;
+}
+.phone-old{
+    width: 100%;
+    height: 110rpx;
+    border-bottom: 1px solid #E5E5E5;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.phone-old-num{
+    font-size: 28rpx;
+    font-family: PingFang-SC-Medium;
+    font-weight: 500;
+    color: #282828;
+}
+.phone-old-btn{
+    font-size: 24rpx;
+    font-family: PingFang-SC-Regular;
+    font-weight: bold;
+    color: #248ADF;
+}
+.phone-old-btn.beginClass{
+    color:#888888;
+}
+.phone-code{
+    width: 100%;
+    height: 110rpx;
+    border-bottom: 1px solid #E5E5E5;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.phone-code-text{
+    width: 50%;
+    font-size: 28rpx;
+    font-family: PingFang-SC-Medium;
+    font-weight: 500;
+    color: #282828;
+}
+.phone-code>input{
+    text-align: right;
+}
+.phone-new{
+    width: 100%;
+    height: 110rpx;
+    border-bottom: 1px solid #E5E5E5;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.phone-new-num{
+    width: 50%;
+    font-size: 28rpx;
+    font-family: PingFang-SC-Medium;
+    font-weight: 500;
+    color: #282828;
+}
+.phone-new>input{
+    text-align: right;
+}
+.finish{
+    width: 654rpx;
+    height: 80rpx;
+    line-height: 80rpx;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 30rpx;
+    font-family: PingFang-SC-Medium;
+    font-weight: 500;
+    margin-top: 100rpx;
+    background: #248ADF;
+    border-radius: 8rpx;
+}
+

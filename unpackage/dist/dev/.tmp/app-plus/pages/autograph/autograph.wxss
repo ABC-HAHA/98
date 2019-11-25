@@ -1,0 +1,26 @@
+
+page{
+    background: #F5F5F5;
+}
+.signPage{
+    padding: 30rpx 0 0;
+}
+.sign{
+    background: #FFFFFF;
+    padding: 30rpx;
+    height: 260rpx;
+}
+.sign>textarea{
+    width: 100%;
+    height: 100%;
+    font-size: 28rpx;
+    font-family: PingFang-SC-Medium;
+    font-weight: 500;
+    color: #222222;
+}
+.placeholder_style{
+    font-size:28rpx;
+    font-weight:400;
+    color: #888888;
+}
+

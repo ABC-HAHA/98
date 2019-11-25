@@ -1,0 +1,29 @@
+<template>
+    <div class="wrapper">
+        <image class="backBtn" src="/static/fanhui.png" @click="goback"></image>
+    </div>
+</template>
+
+<script>
+    export default {
+		data() {
+			return {}
+		},
+        methods: {
+            goback(){
+                uni.navigateBack()
+            }
+        }
+    }
+</script>
+
+<style>
+	.wrapper{
+        justify-content: center;
+        align-items: center;
+    }
+    .backBtn{
+        width: 25wx;
+        height: 25wx;
+    }
+</style>

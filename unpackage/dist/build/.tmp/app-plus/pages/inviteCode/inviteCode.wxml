@@ -1,0 +1,1 @@
+<view class="invite"><view class="invite-item"><textarea disabled="{{disabled}}" placeholder="{{placeholder}}" placeholder-class="placeholder_style" data-event-opts="{{[['input',[['__set_model',['','code','$event',[]]]]]]}}" value="{{code}}" bindinput="__e"></textarea></view></view>

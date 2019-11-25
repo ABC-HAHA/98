@@ -1,0 +1,26 @@
+
+page{
+    background: #F5F5F5;
+}
+.invite{
+    width: 100%;
+    padding-top: 30rpx;
+}
+.invite-item{
+    width: 88%;
+    height: 230rpx;
+    margin: 0 auto;
+    padding: 32rpx 16rpx;
+    background: #FFFFFF;
+}
+.invite-item>textarea{
+    width: 100%;
+    height: 100%;
+    font-size:32rpx;
+}
+.placeholder_style{
+    font-size:32rpx;
+    font-weight:400;
+    color: #888888;
+}
+

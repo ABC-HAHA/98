@@ -1,0 +1,12 @@
+{
+  "softinputNavBar": "none",
+  "navigationBarTitleText": "修改手机号",
+  "scrollIndicator": "none",
+  "titleNView": {
+    "splitLine": {
+      "color": "#C1C1C1",
+      "height": "1px"
+    }
+  },
+  "usingComponents": {}
+}

@@ -1,0 +1,170 @@
+
+.question-specific{
+    width: 100%;
+    margin-top: 40rpx;
+    margin-bottom: 46rpx;
+}
+.question-title{
+    width: 100%;
+    height: 30rpx;
+    font-size: 30rpx;
+    font-family: PingFang-SC-Bold;
+    font-weight: bold;
+    color: #2D2D2D;
+    text-indent: 30rpx;
+}
+.question-items{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    margin-left: 30rpx;
+    margin-top: 30rpx;
+}
+.question-item{
+    width: 220rpx;
+    height: 60rpx;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: #F8F9FB;
+    border-radius: 5rpx;
+    margin: 0 15rpx 22rpx 0;
+}
+.question-item.selected{
+    background: #248ADF;
+}
+.question-item>.image{
+    margin-left: 40rpx;
+    width: 28rpx;
+    height: 28rpx;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAEnklEQVRIS7VWXWwUZRQ9Z6at2KXWxAQfaqgiP/EnMUbRiBHURER4ICZQhJLufLOtfbJRTKT4oPWp+IeESBqkM98sEaXbBzSRig+ClPCg1fAiEuVHWm2iJMaUUkwpM9d829l2Kd1dSnQeNjs/3z333HvPvZcocYkIgyBYJsLnSDwOYL4IbjPHSPwF4DSJYyLypeM4R0hKMZMs9LKtrc2qra11ALYCWFDKsfj9KUC29vf3B21tbdF0Z6YFTKfTC6NIPgawOD50DpAuETkchuGJ6urq8+b50NDQHNu27yP5FMB1AO6Mv++zLG5MJpO/TAW9BtD39zxLRt0AqgD5DUBrIpHoqqurC4uxXLs2Y69cObKOZLsI5gIYFrHWum7DV/nnrgLs7NQrbJufA6gwjKIoakqlUsPXGc7sZ57nVZHWbjLL+HIYyurGRnUwZ2MC0PO8RZZl98XMtiulNgEoWgBFHKHWwTYALxumURQuTqVSP2cLzfxkMhl7ZOTStwAeArBPKWf9TFgV+lZr/SnAFwD8kEhUPmrSkgXUWrsAPRIDYRjeP9MwFgI04bVt+8fxnEpKKeUbQEPf0F0AWPVKNXxyI+w6O4Olto0uEidHR0efb25uHorJbAC4F8Apx0kuMqJeKoIjAAZ6eirndXcXr8bpnPE87wHLsr8BcKt5L4J213VeN//Hq/efM4DUklhG3w/eI/GqCN5xXWfzTNn5vj+PtHoB1EyeHQ9f7t73g7dJvAbINhNO8/ETItEK13UnNLNjx46bqqqqHkwkEn2FNNjR0TFn1qzKXkAW5YyL4EPXdV7KdzwIguUiMLaP0vf1HyRvtyzekUwmB/O86iaxBsB5QJqVUp/lG9m5c+fsysrEobxuZEKZGRg4t35qW0un0zVRJL+LyJ8mpGMkyhKJyrJ8JloHJum3xCBjUcR1qVRyv7nftWtXeUVFxQGAz+Q58fXw8IVVLS0to1PTEsvuCskrDIL0mIhcA+j76WZSOnJaNV0DkDWO43yhdXoviQmtiuC4SLiskJwymUzFyMgl48jlgiE1Xvp+0EJiew5UREZJ6yAgqydzJmfLyuzHGhoasg19uuuqkBYqmtzBIAhMBb+bx3TCpskJIEtc1z1brLo9L1huWXHRaK3fB7ipmCy01q0A26cYvRCGV55sbGw8XkpKWuutADdnZTEpfPb39Nx8dyHhB0HwhgjeMsZJXhSJViqljpYCi8fWGYDjwh9fIdJxa5N6pVTB1qZ1+k0jkSgK61Op1OFSYPmtTQSnlUou/F+bd6zVEwDmkmh0HMebZjzJPqXUfzKefF/vJbnhmvFkqO/evece246+IzFbBB+4rmMG8A1fQRBsE8ErIrgYhtYjTU0NJ7P5z7d49YqBfVEUvjjT2WhmoGXZHwEwg7fwijHZQyeXKDOQRWRLT0+iq9TYuqElKgdq1sQwFNO+Ho6f/QpIhuShsbGxnwYHB7NdpaamZk55efm9IvI0wDoAd5nnIvheJNyY22Pyo1hyESa5RQTzryeZJE6LSPuMF+F840anWuulJFcBXBJv4WbVD0XkbwBnSOuYSHhAKdVbatX/F7M4VsAcKxOaAAAAAElFTkSuQmCC) 0px 0px/28rpx 28rpx no-repeat;
+}
+.question-item.selected>.image{
+    margin-left: 40rpx;
+    width: 28rpx;
+    height: 28rpx;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAC10lEQVRIS72WTUhUURTHf3fUUcfEcsbRFgohJRRoLfow0pTKKIwICRJraW4Cg9olbrSgRZIW9GWLFqUFBYUQUWamVghBEvRFENbCabKcNE1Hxxt3fG+c0Tczr7Jm9+b87/mde+859xxBlJ+UMhcoAwqAHMCpLXEDb4Eu4JYQoi+SKxHOKKUsBI4Dm6IFo9m7gWNCiMdG+nkgKWUicBqoBMIGEgYugUvAYSHEz2BNiCMpZSrQBuSb3EU42VOgVAjxTRcEQNpOHgAb/xKiL1ewLfrOgkEXgIMLBNHdXBRCVKkPP0hKuRno+IM7iRaXurMilSA6SKWo2eya57z30zjVd76QbY/j3B4nyfGWYE23EKJAaHUSsQYihf3a7aWi1cXIxLRfVrU+haOFS+YuyVOgOqAm2hkY2T96JilvceH+4QuYT2y3szc3ea68ToHU3RQFWyamJK/cXnIzrMRYjEvp65iP8msDfBiaCizdvyaZ2q12o+LrUKABICMYdOi2m3vvxki1WagvcbBtuS0kwlHvNAeuu3jp8gb+35ljo6E0LVxgAwo0CcQGe1rd2M+oVyUMxFqgcVcaJSuS/N+TPknlzc/09I8HluRnJdBclo41NuxD4jMEtbwYpvZ+oKj9sLO7nRRnJ3KkbZC2N6MByEqnlav7MlgUmmlz72jC8OiU6srzYeofzsKsMYKCZQm0v599wjJTYrlRsRRHUky0XHIZJoO+qrn3Oyc7hwyd2G0WPyRrcVw0iLI/UqB69byHU59/5uFUlyfEnGQV/uNalR5vBqI0/vRWjS1iwZ7p8dD0ZAaWGCe4XJbO2swEsxClyzP9BDX1eGjtG6Gh1MGGLNWyTP9mniAl/8eParEQovP/tgltV+o82hegu+pnatz4NJhq5XeBdaZvwFjYC+wwbOW6fgGGk2agOuJwEhycliCqxsw2RDVu1aiLN9pk1HHKYIB0aI4Gf2eA/AVewQKqJu2LRgAAAABJRU5ErkJggg==) 0px 0px/28rpx 28rpx no-repeat;
+}
+.question-item-text{
+    margin-left: 9rpx;
+    font-size: 26rpx;
+    font-family: PingFang-SC-Medium;
+    font-weight: 500;
+    color: #666666;
+}
+.question-item.selected>.question-item-text{
+    color: #FFFFFF;
+}
+.detailed-description{
+    width: 100%;
+}
+.detailed-description-title{
+    width: 100%;
+    height: 30rpx;
+    font-size: 30rpx;
+    font-family: PingFang-SC-Bold;
+    font-weight: bold;
+    color: #2D2D2D;
+    text-indent: 30rpx;
+    margin-bottom: 30rpx;
+}
+.detailed-description-content{
+    width: 100%;
+}
+.detailed-description-content>textarea{
+    padding: 20rpx;
+    width: 650rpx;
+    height: 260rpx;
+    margin-left: 30rpx;
+    background: #F8F9FB;
+    border-radius: 5rpx;
+    font-size: 16px;
+}
+.contact-method{
+    width: 100%;
+    margin-top: 50rpx;
+}
+.contact-method-title{
+    width: 100%;
+    height: 30rpx;
+    font-size: 30rpx;
+    font-family: PingFang-SC-Bold;
+    font-weight: bold;
+    color: #2D2D2D;
+    text-indent: 30rpx;
+    margin-bottom: 36rpx;
+}
+.contact-method-qq{
+    width: 650rpx;
+    height: 88rpx;
+    margin-left: 30rpx;
+    margin-bottom: 20rpx;
+    padding-left: 20rpx;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: #F8F9FB;
+    border-radius: 5rpx;
+    font-size: 30rpx;
+}
+.contact-method-mail{
+    width: 650rpx;
+    height: 88rpx;
+    margin-left: 30rpx;
+    padding-left: 20rpx;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: #F8F9FB;
+    border-radius: 5rpx;
+    font-size: 30rpx;
+}
+.confirm{
+    width: 100%;
+    height: 40px;
+    background: #248ADF;
+    color: #FFFFFF;
+    line-height: 40px;
+    text-align: center;
+    font-size: 30rpx;
+    position: fixed;
+    bottom: 0rpx;
+    left: 0rpx;
+    z-index: 5;
+}
+.textarea_style{
+    font-size: 26rpx;
+    line-height: 36rpx;
+    font-weight: 400 !important;
+    color: #666666;
+}
+.placeholder_style{
+    font-size: 26rpx;
+    line-height: 36rpx;
+    font-weight: 500 !important;
+    color: #666666;
+}
+

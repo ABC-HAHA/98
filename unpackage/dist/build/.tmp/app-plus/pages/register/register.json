@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "注册账号",
+  "softinputNavBar": "none",
+  "titleNView": {
+    "splitLine": {
+      "color": "#C1C1C1",
+      "height": "1px"
+    }
+  },
+  "usingComponents": {}
+}

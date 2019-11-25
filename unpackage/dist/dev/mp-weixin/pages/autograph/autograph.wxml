@@ -1,0 +1,1 @@
+<view class="signPage"><view class="sign"><textarea placeholder="签名最多200个字" maxlength="200" focus="true" placeholder-class="placeholder_style" data-event-opts="{{[['input',[['__set_model',['','content','$event',[]]]]]]}}" value="{{content}}" bindinput="__e"></textarea></view></view>

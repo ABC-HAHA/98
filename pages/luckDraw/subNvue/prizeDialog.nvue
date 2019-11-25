@@ -1,0 +1,135 @@
+<template>
+	<div class="prize-dialog">
+		<div class="dialog-box">
+            <image class="dialog-img" src="/static/zhongjiangtishi.png"></image>
+            <image class="dialog-img-close" src="/static/zhongjiangguanbi.png" @click="close"></image>
+            <div class="dialog-box-contain">
+                <text class="dialog-box-text">{{text}}</text>
+                <text class="dialog-box-content">{{content}}</text>
+            </div>
+            <div class="dialog-btn" @click="clickBtn">
+                <image class="dialog-btn-image" src="/static/zhongjianganniu.png"></image>
+                <text class="dialog-btn-txt">{{btnText}}</text>
+            </div>
+        </div>
+	</div>
+</template>
+
+<script>
+	export default {
+		data(){
+            return{
+                text: "恭喜您中奖啦",
+                content: "快去查看您的奖品吧",
+                btnText: "前去查看",
+                isPrize: null
+            }
+        },
+        methods:{
+            close(){
+                // #ifdef APP-PLUS
+                const subNVue = uni.getSubNVueById('hasPrize');
+                subNVue.hide('slide-out-top', 200)
+                // #endif
+            },
+            clickBtn(){
+                if (this.isPrize) {
+                    uni.navigateTo({
+                        url: '/pages/task/my_exchange',
+                        animationType: 'slide-in-right'
+                    });
+                    this.close();
+                } else {
+                    this.close();
+                }
+            }
+        },
+        created() {
+            const that = this;
+            uni.$on('is-prize', (data) => {
+                that.isPrize = data;
+                if (data) {
+                    that.text = '恭喜您中奖啦';
+                    that.btnText = '前去查看';
+                    that.content = '快去查看您的奖品吧';
+                } else {
+                    that.text = '谢谢参与';
+                    that.btnText = '返回抽奖';
+                    that.content = '';
+                }
+            })
+        },
+        beforeDestroy() {
+        	uni.$off('is-prize')
+        }
+	}
+</script>
+
+<style>
+    .prize-dialog{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .dialog-box{
+        width: 200wx;
+        height: 248wx;
+        position: relative;
+    }
+    .dialog-img{
+        width: 200wx;
+        height: 248wx;
+    }
+    .dialog-img-close{
+        width: 12.5wx;
+        height: 12.5wx;
+        position: absolute;
+        top: 10wx;
+        right: 4wx;
+    }
+    .dialog-box-contain{
+        width: 120wx;
+        height: 50wx;
+        position: absolute;
+        top: 114wx;
+        left: 40wx;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .dialog-box-text{
+        font-size: 20wx;
+        font-family: Adobe Heiti Std;
+        font-weight: normal;
+        color: #FFFFFF;
+    }
+    .dialog-box-content{
+        font-size: 10wx;
+        font-family: PingFang SC;
+        font-weight: 300;
+        color: #FFFFFF;
+    }
+    .dialog-btn{
+        width: 110wx;
+        height: 36wx;
+        position: absolute;
+        bottom: 25wx;
+        left: 45wx;
+    }
+    .dialog-btn-image{
+        width: 110wx;
+        height: 36wx;
+    }
+    .dialog-btn-txt{
+        width: 110wx;
+        height: 36wx;
+        text-align: center;
+        line-height: 36wx;
+        font-size: 16wx;
+        color: #3169FF;
+        font-weight: 400;
+        position: absolute;
+        top: 0wx;
+        left: 0wx;
+    }
+</style>

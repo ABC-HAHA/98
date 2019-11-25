@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "热播推荐",
+  "scrollIndicator": "none",
+  "titleNView": {
+    "splitLine": {
+      "color": "#C1C1C1",
+      "height": "1px"
+    }
+  },
+  "usingComponents": {}
+}

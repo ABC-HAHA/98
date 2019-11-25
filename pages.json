@@ -1,0 +1,620 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/tarbar/home/home",
+			"style": {
+				// "enablePullDownRefresh": true,
+                "navigationStyle":"custom",
+                "app-plus":{
+                    "scrollIndicator":"none"
+                }
+			}
+		}
+        ,{
+            "path" : "pages/tarbar/discover/discover",
+            "style" : {
+				 "navigationStyle":"custom"
+			},
+			"app-plus":{
+			"titleView":false
+			},
+			"statusbar":"red"
+        }
+        ,{
+		    "path" : "pages/discover/topics/topics_details",
+		    "style" : {
+				 "navigationBarTitleText": "专题详情页",
+                 "app-plus": {
+                     "titleNView": {
+                         "buttons": [{
+                                 "type": "share"
+                             }
+                         ]
+                     }
+                 }
+			}
+		}
+        ,{
+            "path" : "pages/tarbar/share/share",
+            "style" : {
+                "navigationBarTitleText": "分享",
+                "navigationBarBackgroundColor": "#248ADF",
+                "navigationBarTextStyle": "white",
+                "app-plus":{
+                    "scrollIndicator":"none"
+                }
+            }
+        }
+        ,{
+            "path" : "pages/tarbar/task/task",
+            "style" : {
+				"navigationBarTitleText": "任务"
+			}
+        }
+        ,{
+            "path" : "pages/task/my_invitation",
+            "style" : {
+				"navigationBarTitleText": "我的邀请",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor":"#248ADF"
+			}
+        }
+        ,{
+            "path" : "pages/task/my_exchange",
+            "style" : {
+				"navigationBarTitleText": "兑换中心",
+                "app-plus":{
+                    "scrollIndicator":"none",
+                    "nvueCompiler":"uni-app",
+                    "subNVues":[
+                        {
+                            "id":"exchangeRule",
+                            "type":"popup",
+                            "path":"pages/task/subNvue/prizeRule",
+                            "style":{
+                                "width":"100%",
+                                "height":"100%",
+                                "background":"rgba(0,0,0,0)"
+                            }
+                        }
+                    ]
+                }
+			}
+        }
+        ,{
+            "path" : "pages/tarbar/mine/mine",
+            "style" : {
+				 "navigationStyle":"custom"
+			}
+        }
+        ,{
+            "path" : "pages/more/more",
+            "style" : {
+				"navigationBarTitleText": "热播推荐",
+                "app-plus":{
+                    "scrollIndicator":"none",
+                    "titleNView":{
+                        "splitLine":{
+                            "color":"#C1C1C1",
+                            "height":"1px"
+                        }
+                    }
+                }
+            }
+        } 
+		,{
+            "path" : "pages/playPage/playPage",
+            "style" : {
+				 "navigationStyle":"custom",
+				 "app-plus":{
+					"scrollIndicator":"none",
+					"bounce":"none",
+					"softinputNavBar":"none",
+                    "subNVues":[
+                        {
+                            "id":"goback",
+                            "path":"pages/playPage/subnvue/goback",
+                            "style":{
+                                "position":"absolute",
+                                "top":"30px",
+                                "left":"0",
+                                "width":"50px",
+                                "height":"50px",
+                                "background":"transparent"
+                            }
+                        }
+                    ]
+				}
+			}
+        }
+        ,{
+            "path" : "pages/classify/classify",
+            "style" : {
+                "navigationBarTitleText": "频道",
+                "app-plus":{
+                    "scrollIndicator":"none",
+                    "titleNView":{
+                        "splitLine":{
+                            "color":"#C1C1C1",
+                            "height":"1px"
+                        }
+                    }
+                }
+            }
+        }
+        ,{
+            "path" : "pages/login/login",
+            "style" : {
+                "navigationBarTitleText": "登录",
+                "app-plus":{
+                    "softinputNavBar":"none"
+                }
+            }
+        }
+        ,{
+            "path" : "pages/forgetPwd/forgetPwd",
+            "style" : {
+                "navigationBarTitleText": "忘记密码",
+                "app-plus":{
+                    "softinputNavBar":"none",
+                    "titleNView":{
+                        "splitLine":{
+                            "color":"#C1C1C1",
+                            "height":"1px"
+                        }
+                    }
+                }
+            }
+        }
+        ,{
+            "path" : "pages/register/register",
+            "style" : {
+                "navigationBarTitleText": "注册账号",
+                "app-plus":{
+                    "softinputNavBar":"none",
+                    "titleNView":{
+                        "splitLine":{
+                            "color":"#C1C1C1",
+                            "height":"1px"
+                        }
+                    }
+                }
+            }
+        }
+        ,{
+            "path" : "pages/download/download",
+            "style" : {
+                "navigationBarTitleText": "缓存",
+                "app-plus":{
+                    "scrollIndicator":"none",
+                    "titleNView":{
+                        "splitLine":{
+                            "color":"#C1C1C1",
+                            "height":"1px"
+                        },
+                        "buttons":[
+                            {
+                                "text":"编辑",
+                                "fontSize":"14px",
+                                "width":"60px"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+        ,{
+            "path" : "pages/collection/collection",
+            "style" : {
+                "navigationBarTitleText": "收藏",
+                "app-plus":{
+                    "scrollIndicator":"none",
+                    "titleNView":{
+                        "splitLine":{
+                            "color":"#C1C1C1",
+                            "height":"1px"
+                        },
+                        "buttons":[
+                            {
+                                "text":"编辑",
+                                "fontSize":"14px",
+                                "width":"60px"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+        ,{
+		    "path" : "pages/task/my_coin",
+		    "style" : {
+				"navigationBarTitleText": "我的金币",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor":"#248ADF"
+			}
+		}
+        ,{
+            "path" : "pages/search/search",
+            "style" : {
+                "app-plus":{
+                    "softinputNavBar":"none",
+                    "scrollIndicator":"none",
+                    "titleNView":{
+                        "autoBackButton":"false",
+                        "splitLine":{
+                            "color":"#C1C1C1",
+                            "height":"1px"
+                        },
+                        "backgroundColor":"#FFFFFF",
+                        "titleColor":"rgba(255,255,255,0)",
+                        "searchInput":{
+                            "autoFocus":true,
+                            "backgroundColor":"#F8F9FB",
+                            "borderRadius":"16px",
+                            "align":"left",
+                            "placeholder":"请输入搜索内容",
+                            "placeholderColor":"#CCCCCC"
+                        },
+                        "buttons":[
+                            {
+                                "type":"none",
+                                "float":"left",
+                                "width":"15px"
+                            },
+                            {
+                                "text":"取消",
+                                "fontSize":"14px",
+                                "float":"right",
+                                "color":"#505050",
+                                "width":"60px"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+        ,{
+            "path" : "pages/playHistory/playHistory",
+            "style" : {
+                "navigationBarTitleText": "播放历史",
+                "app-plus":{
+                    "scrollIndicator":"none",
+                    "titleNView":{
+                        "splitLine":{
+                            "color":"#C1C1C1",
+                            "height":"1px"
+                        },
+                        "buttons":[
+                            {
+                                "text":"编辑",
+                                "fontSize":"14px",
+                                "width":"60px"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+        ,{
+            "path" : "pages/changePwd/changePwd",
+            "style" : {
+                "softinputNavBar":"none",
+                "navigationBarTitleText": "修改密码",
+                "app-plus":{
+                    "titleNView":{
+                        "splitLine":{
+                            "color":"#C1C1C1",
+                            "height":"1px"
+                        }
+                    }
+                }
+            }
+        }
+        ,{
+            "path" : "pages/setting/setting",
+            "style" : {
+                "navigationBarTitleText": "设置",
+                "app-plus":{
+                    "scrollIndicator":"none",
+                    "titleNView":{
+                        "splitLine":{
+                            "color":"#C1C1C1",
+                            "height":"1px"
+                        }
+                    }
+                }
+            }
+        }
+        ,{
+            "path" : "pages/allClass/allClass",
+            "style" : {
+                "navigationBarTitleText": "电影",
+                "app-plus":{
+                    "scrollIndicator":"none",
+                    "titleNView":{
+                        "splitLine":{
+                            "color":"#C1C1C1",
+                            "height":"1px"
+                        }
+                    }
+                }
+            }
+        }
+        ,{
+            "path" : "pages/feedback/feedback",
+            "style" : {
+                "softinputNavBar":"none",
+                "navigationBarTitleText": "反馈",
+                "app-plus":{
+                    "scrollIndicator":"none",
+                    "titleNView":{
+                        "splitLine":{
+                            "color":"#C1C1C1",
+                            "height":"1px"
+                        }
+                    }
+                }
+            }
+        }
+        ,{
+            "path" : "pages/helpCenter/helpCenter",
+            "style" : {
+                "navigationBarTitleText": "帮助中心",
+                "app-plus":{
+                    "scrollIndicator":"none",
+                    "titleNView":{
+                        "splitLine":{
+                            "color":"#C1C1C1",
+                            "height":"1px"
+                        }
+                    }
+                }
+            }
+        }
+        ,{
+            "path" : "pages/editProfile/editProfile",
+            "style" : {
+                "softinputNavBar":"none",
+                "navigationBarTitleText": "编辑资料",
+                "app-plus":{
+                    "scrollIndicator":"none",
+                    "titleNView":{
+                        "splitLine":{
+                            "color":"#C1C1C1",
+                            "height":"1px"
+                        }
+                    }
+                }
+            }
+        }
+        ,{
+            "path" : "pages/inviteCode/inviteCode",
+            "style" : {
+                "softinputNavBar":"none",
+                "navigationBarTitleText": "填写邀请码",
+                "app-plus":{
+                    "scrollIndicator":"none",
+                    "titleNView":{
+                        "splitLine":{
+                            "color":"#C1C1C1",
+                            "height":"1px"
+                        },
+                        "buttons":[
+                            {
+                                "text":"完成",
+                                "fontSize":"14px",
+                                "color":"#248ADF",
+                                "width":"60px"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+        ,{
+            "path" : "pages/systemMsg/systemMsg",
+            "style" : {
+                "navigationBarTitleText": "系统消息",
+                "app-plus":{
+                    "scrollIndicator":"none",
+                    "titleNView":{
+                        "splitLine":{
+                            "color":"#C1C1C1",
+                            "height":"1px"
+                        }
+                    }
+                }
+            }
+        }
+        ,{
+            "path" : "pages/security/security",
+            "style" : {
+                "navigationBarTitleText": "账户与安全",
+                "app-plus":{
+                    "scrollIndicator":"none",
+                    "titleNView":{
+                        "splitLine":{
+                            "color":"#C1C1C1",
+                            "height":"1px"
+                        }
+                    }
+                }
+            }
+        }
+        ,{
+            "path" : "pages/changePhone/changePhone",
+            "style" : {
+                "softinputNavBar":"none",
+                "navigationBarTitleText": "修改手机号",
+                "app-plus":{
+                    "scrollIndicator":"none",
+                    "titleNView":{
+                        "splitLine":{
+                            "color":"#C1C1C1",
+                            "height":"1px"
+                        }
+                    }
+                }
+            }
+        }
+        ,{
+            "path" : "pages/changeName/changeName",
+            "style" : {
+                "softinputNavBar":"none",
+                "navigationBarTitleText": "设置昵称",
+                "app-plus":{
+                    "scrollIndicator":"none",
+                    "titleNView":{
+                        "splitLine":{
+                            "color":"#C1C1C1",
+                            "height":"1px"
+                        },
+                        "buttons":[
+                            {
+                                "text":"保存",
+                                "fontSize":"14px",
+                                "color":"#248ADF",
+                                "width":"60px"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+        ,{
+            "path" : "pages/autograph/autograph",
+            "style" : {
+                "softinputNavBar":"none",
+                "navigationBarTitleText": "设置签名",
+                "app-plus":{
+                    "scrollIndicator":"none",
+                    "titleNView":{
+                        "splitLine":{
+                            "color":"#C1C1C1",
+                            "height":"1px"
+                        },
+                        "buttons":[
+                            {
+                                "text":"保存",
+                                "fontSize":"14px",
+                                "color":"#248ADF",
+                                "width":"60px"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+        ,{
+            "path" : "pages/discover/topics/topics_details_comment",
+            "style" : {
+        		 "navigationBarTitleText": "查看全部评论"
+        	}
+        }
+        ,{
+            "path" : "pages/download/video/video",
+            "style" : {
+                "navigationBarTitleText": "电视剧",
+                "app-plus":{
+                    "scrollIndicator":"none",
+                    "titleNView":{
+                        "splitLine":{
+                            "color":"#C1C1C1",
+                            "height":"1px"
+                        },
+                        "buttons":[
+                            {
+                                "text":"编辑",
+                                "fontSize":"14px",
+                                "width":"60px"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+        ,{
+            "path" : "pages/download/videoPlay/videoPlay",
+            "style" : {
+                "navigationStyle":"custom",
+                "app-plus":{
+                    "scrollIndicator":"none"
+                }
+            }
+        }
+        ,{
+            "path" : "pages/luckDraw/luckDraw",
+            "style" : {
+                "navigationBarTitleText": "每日福利",
+                "navigationBarBackgroundColor": "#2270DA",
+                "navigationBarTextStyle": "white",
+                "app-plus":{
+                    "scrollIndicator":"none",
+                    "nvueCompiler":"uni-app",
+                    "subNVues":[
+                        {
+                            "id":"hasPrize",
+                            "type":"popup",
+                            "path":"pages/luckDraw/subNvue/prizeDialog",
+                            "style":{
+                                "width":"100%",
+                                "height":"100%",
+                                "background":"rgba(0,0,0,0)"
+                            }
+                        },
+                        {
+                            "id":"showRule",
+                            "type":"popup",
+                            "path":"pages/luckDraw/subNvue/prizeRule",
+                            "style":{
+                                "width":"100%",
+                                "height":"100%",
+                                "background":"rgba(0,0,0,0)"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "rgba(45,45,45,1)",
+		"selectedColor": "rgba(36,138,223,1)",
+		"borderStyle": "black",
+		"backgroundColor": "#F8F8F8",
+		"list": [{
+				"pagePath": "pages/tarbar/home/home",
+				"iconPath": "static/shouye.png",
+				"selectedIconPath": "static/shouye_pre.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/tarbar/discover/discover",
+				"iconPath": "static/faxian.png",
+				"selectedIconPath": "static/faxian_pre.png",
+				"text": "发现"
+			}, {
+				"pagePath": "pages/tarbar/share/share",
+				"iconPath": "static/fenxiang.png",
+				"selectedIconPath": "static/fenxiang_pre.png",
+				"text": "分享"
+			}, {
+				"pagePath": "pages/tarbar/task/task",
+				"iconPath": "static/renwu.png",
+				"selectedIconPath": "static/renwu_pre.png",
+				"text": "任务"
+			}, {
+				"pagePath": "pages/tarbar/mine/mine",
+				"iconPath": "static/wode.png",
+				"selectedIconPath": "static/wode_pre.png",
+				"text": "我的"
+			}
+		]
+	}
+}

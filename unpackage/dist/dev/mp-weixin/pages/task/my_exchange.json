@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "兑换中心",
+  "usingComponents": {
+    "task-item": "/pages/task/taskItem"
+  }
+}

@@ -1,0 +1,69 @@
+
+.system-item{
+    padding: 30rpx 0 32rpx 0;
+    border-bottom: 1px solid #E3E3E3;
+}
+.system-item-title{
+    font-size: 30rpx;
+    font-family: PingFang-SC-Bold;
+    font-weight: bold;
+    color: #2D2D2D;
+    margin-bottom: 30rpx;
+    margin-left: 48rpx;
+}
+.system-item-time{
+    font-size: 24rpx;
+    font-family: PingFang-SC-Medium;
+    font-weight: 500;
+    color: #666666;
+    line-height: 36rpx;
+    margin-bottom: 20rpx;
+    margin-left: 30rpx;
+}
+.system-item-content{
+    font-size: 24rpx;
+    font-family: PingFang-SC-Medium;
+    font-weight: 500;
+    color: #666666;
+    line-height: 36rpx;
+    margin-left: 30rpx;
+}
+.noMessage{
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.noMessage>image{
+    width: 374rpx;
+    height: 390rpx;
+}
+.noNetwork{
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.noNetwork>image{
+    width: 588rpx;
+    height: 476rpx;
+}
+

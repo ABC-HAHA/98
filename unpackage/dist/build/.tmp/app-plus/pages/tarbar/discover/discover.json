@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "topics": "/pages/discover/topics/topics",
+    "film-ranking": "/pages/discover/filmRanking/filmRanking"
+  }
+}

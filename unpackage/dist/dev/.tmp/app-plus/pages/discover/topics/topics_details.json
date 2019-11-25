@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "专题详情页",
+  "titleNView": {
+    "buttons": [
+      {
+        "type": "share"
+      }
+    ]
+  },
+  "usingComponents": {
+    "input_detail": "/pages/discover/topics/input_detail",
+    "comm-item": "/pages/playPage/commentItem"
+  }
+}

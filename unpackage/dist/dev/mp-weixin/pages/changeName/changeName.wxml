@@ -1,0 +1,1 @@
+<view class="changeUser"><view class="userName"><input type="text" maxlength="10" focus="true" placeholder-class="placeholder_style" placeholder="昵称最多十个字" data-event-opts="{{[['input',[['__set_model',['','username','$event',[]]]]]]}}" value="{{username}}" bindinput="__e"/></view></view>

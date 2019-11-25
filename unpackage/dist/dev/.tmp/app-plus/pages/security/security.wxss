@@ -1,0 +1,40 @@
+
+page{
+    background: #F5F5F5;
+}
+.security{
+    width: 100%;
+    padding-top: 20rpx;
+}
+.security-item{
+    height: 96rpx;
+    margin: 0 auto 1px;
+    padding: 0 40rpx 0 30rpx;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: #FFFFFF;
+}
+.security-item-text{
+    font-size: 28rpx;
+    font-family: PingFang-SC-Medium;
+    font-weight: 500;
+    color: #282828;
+}
+.security-item-image{
+    width: 16rpx;
+    height: 30rpx;
+}
+

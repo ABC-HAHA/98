@@ -1,0 +1,30 @@
+{
+  "navigationBarTitleText": "每日福利",
+  "navigationBarBackgroundColor": "#2270DA",
+  "navigationBarTextStyle": "white",
+  "scrollIndicator": "none",
+  "nvueCompiler": "uni-app",
+  "subNVues": [
+    {
+      "id": "hasPrize",
+      "type": "popup",
+      "path": "pages/luckDraw/subNvue/prizeDialog",
+      "style": {
+        "width": "100%",
+        "height": "100%",
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    {
+      "id": "showRule",
+      "type": "popup",
+      "path": "pages/luckDraw/subNvue/prizeRule",
+      "style": {
+        "width": "100%",
+        "height": "100%",
+        "background": "rgba(0,0,0,0)"
+      }
+    }
+  ],
+  "usingComponents": {}
+}

@@ -1,0 +1,92 @@
+{
+  "pages": [
+    "pages/tarbar/home/home",
+    "pages/tarbar/discover/discover",
+    "pages/discover/topics/topics_details",
+    "pages/tarbar/share/share",
+    "pages/tarbar/task/task",
+    "pages/task/my_invitation",
+    "pages/task/my_exchange",
+    "pages/tarbar/mine/mine",
+    "pages/more/more",
+    "pages/playPage/playPage",
+    "pages/classify/classify",
+    "pages/login/login",
+    "pages/forgetPwd/forgetPwd",
+    "pages/register/register",
+    "pages/download/download",
+    "pages/collection/collection",
+    "pages/task/my_coin",
+    "pages/search/search",
+    "pages/playHistory/playHistory",
+    "pages/changePwd/changePwd",
+    "pages/setting/setting",
+    "pages/allClass/allClass",
+    "pages/feedback/feedback",
+    "pages/helpCenter/helpCenter",
+    "pages/editProfile/editProfile",
+    "pages/inviteCode/inviteCode",
+    "pages/systemMsg/systemMsg",
+    "pages/security/security",
+    "pages/changePhone/changePhone",
+    "pages/changeName/changeName",
+    "pages/autograph/autograph",
+    "pages/discover/topics/topics_details_comment",
+    "pages/download/video/video",
+    "pages/download/videoPlay/videoPlay",
+    "pages/luckDraw/luckDraw"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "rgba(45,45,45,1)",
+    "selectedColor": "rgba(36,138,223,1)",
+    "borderStyle": "black",
+    "backgroundColor": "#F8F8F8",
+    "list": [
+      {
+        "pagePath": "pages/tarbar/home/home",
+        "iconPath": "static/shouye.png",
+        "selectedIconPath": "static/shouye_pre.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/tarbar/discover/discover",
+        "iconPath": "static/faxian.png",
+        "selectedIconPath": "static/faxian_pre.png",
+        "text": "发现"
+      },
+      {
+        "pagePath": "pages/tarbar/share/share",
+        "iconPath": "static/fenxiang.png",
+        "selectedIconPath": "static/fenxiang_pre.png",
+        "text": "分享"
+      },
+      {
+        "pagePath": "pages/tarbar/task/task",
+        "iconPath": "static/renwu.png",
+        "selectedIconPath": "static/renwu_pre.png",
+        "text": "任务"
+      },
+      {
+        "pagePath": "pages/tarbar/mine/mine",
+        "iconPath": "static/wode.png",
+        "selectedIconPath": "static/wode_pre.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "nvueCompiler": "weex",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "98影院",
+  "compilerVersion": "2.3.7",
+  "usingComponents": {}
+}

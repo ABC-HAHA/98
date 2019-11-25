@@ -1,0 +1,9 @@
+{
+  "navigationStyle": "custom",
+  "scrollIndicator": "none",
+  "usingComponents": {
+    "wuc-tab": "/components/wuc-tab/wuc-tab",
+    "uni-nav-bar": "/components/uni-nav-bar-diy/uni-nav-bar-diy",
+    "home-module": "/pages/home/home/home-module"
+  }
+}

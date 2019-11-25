@@ -1,0 +1,184 @@
+<template>
+	<div class="dialog-rule" @click="closeBox">
+		<div class="dialog-rule-box">
+            <div class="dialog-rule-box-content">
+                <image class="rule-box-image" src="/static/prize-rule.png"></image>
+                <div class="rule-box-text">
+                    <text class="rule-box-text-title">提现规则</text>
+                    <text class="rule-box-text-content">中奖现金依据下方流程提现</text>
+                </div>
+                <div class="rule-list">
+                    <div class="rule-list-one">
+                        <image class="rule-list-one-img" src="/static/rule-one.png"></image>
+                        <text class="rule-list-one-text">添加下方客服微信/QQ号</text>
+                    </div>
+                    <div class="rule-list-two">
+                        <image class="rule-list-two-img" src="/static/rule-two.png"></image>
+                        <text class="rule-list-two-text">给客服提供您的中奖编号</text>
+                    </div>
+                    <div class="rule-list-three">
+                        <image class="rule-list-three-img" src="/static/rule-three.png"></image>
+                        <text class="rule-list-three-text">待客服核实后转账/发红包给您，请您耐心等待！ (客服会在24小时内处理）</text>
+                    </div>
+                    <div class="rule-list-four">
+                        <image class="rule-list-four-img" src="/static/rule-four.png"></image>
+                        <text class="rule-list-four-text">如果又任何疑问请您及时联系客服</text>
+                    </div>
+                    <div class="rule-line-txt"></div>
+                    <div class="rule-time">
+                        <text class="rule-time-online">客服在线时间：工作日9：00—18：00</text>
+                        <text class="rule-time-wx">客服微信：{{wx}}</text>
+                        <text class="rule-time-qq">客服QQ：{{qq}}</text>
+                    </div>
+                </div>
+            </div>
+        </div>
+	</div>
+</template>
+
+<script>
+	export default {
+        data(){
+            return{
+                wx: 1452478512,
+                qq: 145278965,
+            }
+        },
+		methods:{
+            closeBox(){
+                // #ifdef APP-PLUS
+                const subNVue = uni.getSubNVueById('showRule');
+                subNVue.hide('slide-out-top', 200)
+                // #endif
+            }
+        },
+        created() {
+            const that = this;
+            uni.$on('websrc', (data) => {
+                let websiteUrl = data;
+                uni.request({
+                    url: websiteUrl + '/api/lottery/account',
+                    method: 'GET',
+                    success: res => {
+                        let getData = res.data;
+                        if (getData.status == 0) {
+                            that.wx = getData.account[0].wx;
+                            that.qq = getData.account[0].qq;
+                        }
+                    }
+                });
+            })
+        },
+        beforeDestroy() {
+        	uni.$off('websrc');
+        }
+	}
+</script>
+
+<style>
+    .dialog-rule{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .dialog-rule-box{
+        width: 330wx;
+        height: 390wx;
+    }
+    .dialog-rule-box-content{
+        width: 330wx;
+        height: 390wx;
+        position: relative;
+    }
+    .rule-box-image{
+        width: 330wx;
+        height: 390wx;
+    }
+    .rule-box-text{
+        width: 330wx;
+        height: 161wx;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 0wx;
+        left: 0wx;
+    }
+    .rule-box-text-title{
+        font-size: 32wx;
+        font-family: PingFang SC;
+        font-weight: 500;
+        color: #FFFFFF;
+        margin-bottom: 23wx;
+    }
+    .rule-box-text-content{
+        font-size: 15wx;
+        font-family: PingFang SC;
+        font-weight: bold;
+        color: #FFFFFF;
+    }
+    .rule-list{
+        width: 330wx;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        position: absolute;
+        top: 161wx;
+        left: 25wx;
+    }
+    .rule-list-one,
+    .rule-list-two,
+    .rule-list-three,
+    .rule-list-four{
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        margin-bottom: 16wx;
+    }
+    .rule-list-one-img,
+    .rule-list-two-img,
+    .rule-list-three-img,
+    .rule-list-four-img{
+        width: 14wx;
+        height: 14wx;
+        margin-right: 6wx;
+    }
+    .rule-list-one-text,
+    .rule-list-two-text,
+    .rule-list-three-text,
+    .rule-list-four-text{
+        width: 270wx;
+        font-size: 12wx;
+        font-family: PingFang SC;
+        font-weight: 400;
+        color: #3E3E3E;
+    }
+    .rule-line-txt{
+        width: 272wx;
+        height: 1wx;
+        margin-top: 6wx;
+        background-color: #EEEEEE;
+    }
+    .rule-time{
+        width: 255wx;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        margin-left: 12wx;
+        margin-top: 16wx;
+    }
+    .rule-time-online,
+    .rule-time-wx,
+    .rule-time-qq{
+        font-size: 11wx;
+        font-family: PingFang SC;
+        font-weight: 400;
+        color: #3E3E3E;
+    }
+    .rule-time-online{
+        margin-bottom: 8wx;
+    }
+    .rule-time-wx{
+        margin-right: 16wx;
+    }
+</style>

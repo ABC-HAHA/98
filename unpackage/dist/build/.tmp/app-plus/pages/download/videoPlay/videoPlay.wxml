@@ -1,0 +1,1 @@
+<view class="video"><view data-event-opts="{{[['tap',[['showBack',['$event']]]]]}}" class="videoBox" bindtap="__e"><view data-event-opts="{{[['tap',[['quit',['$event']]]]]}}" class="{{['goBack',showflag?' show':'']}}" bindtap="__e"><image src="/static/fanhui.png" mode></image></view><video class="playVideo" id="localVideo" src="{{videoUrl}}" autoplay="true"></video></view></view>

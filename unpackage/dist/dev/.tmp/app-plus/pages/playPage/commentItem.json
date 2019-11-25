@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "uni-popup": "/pages/playPage/uni-popup"
+  },
+  "component": true
+}

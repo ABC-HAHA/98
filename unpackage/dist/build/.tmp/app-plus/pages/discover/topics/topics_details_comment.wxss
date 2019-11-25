@@ -1,0 +1,117 @@
+
+.uni-column {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+.content {
+	width:750rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+	margin-bottom: 100rpx;
+}
+.foot {
+	margin-left: 30rpx;
+	position: fixed;
+	width: 100%;
+	height: 100rpx;
+	min-height: 100rpx;
+	left: 0rpx;
+	/* top:10upx; */
+
+	bottom:-5rpx;
+}
+.detail_title{
+	width:691rpx;
+	font-size:30rpx;
+	font-weight:bold;
+	color:rgba(45,45,45,1);
+	line-height:46rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	margin: 0rpx auto;
+	margin-top: 20rpx;
+}
+.detail_time{
+	width:690rpx;
+	height:21rpx;
+	font-size:26rpx;
+	color:rgba(102,102,102,1);
+	margin: 0rpx auto;
+	margin-top: 40rpx;
+}
+.detail_introduce{
+	width:682rpx;
+	font-size:28rpx;
+	color:rgba(102,102,102,1);
+	margin: 0rpx auto;
+	margin-top: 40rpx;
+}
+.detail_film_details{
+	/* margin-top: 30upx; */
+}
+.detail_introduce_titel{
+	margin-top: 20rpx;
+	margin-left: 30rpx;
+	width: 180rpx;
+	text-align: center;
+	border-left: 10rpx solid rgba(36,138,223,1);
+	border-bottom-left-radius: 3rpx;
+	font-size:30rpx;
+	color:rgba(45,45,45,1);
+}
+.detail_introduce_content{
+	width:680rpx;
+	font-size:28rpx;
+	color:rgba(102,102,102,1);
+	margin: 0rpx auto;
+	margin-top:30rpx;
+}
+.detail_content{
+	width:750rpx;
+	margin: 0rpx auto;
+}
+.nodata_group{
+	margin-top: 300rpx;
+	height: 500rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.nodata{
+	width: 374rpx;
+	height: 390rpx;
+	margin: 0rpx auto;
+}
+

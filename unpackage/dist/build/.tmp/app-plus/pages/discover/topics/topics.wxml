@@ -1,0 +1,1 @@
+<view><view class="topicsPage"><block wx:for="{{newsitemData}}" wx:for-item="newsitem" wx:for-index="index2" wx:key="index2"><view><media-list vue-id="{{'1-'+index2}}" options="{{newsitem}}" bind:__l="__l"></media-list></view></block><block wx:if="{{baseline}}"><view class="uni-tab-bar-loading">我是有底线的</view></block></view></view>

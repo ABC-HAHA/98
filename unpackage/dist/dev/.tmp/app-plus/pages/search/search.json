@@ -1,0 +1,36 @@
+{
+  "softinputNavBar": "none",
+  "scrollIndicator": "none",
+  "titleNView": {
+    "autoBackButton": "false",
+    "splitLine": {
+      "color": "#C1C1C1",
+      "height": "1px"
+    },
+    "backgroundColor": "#FFFFFF",
+    "titleColor": "rgba(255,255,255,0)",
+    "searchInput": {
+      "autoFocus": true,
+      "backgroundColor": "#F8F9FB",
+      "borderRadius": "16px",
+      "align": "left",
+      "placeholder": "请输入搜索内容",
+      "placeholderColor": "#CCCCCC"
+    },
+    "buttons": [
+      {
+        "type": "none",
+        "float": "left",
+        "width": "15px"
+      },
+      {
+        "text": "取消",
+        "fontSize": "14px",
+        "float": "right",
+        "color": "#505050",
+        "width": "60px"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

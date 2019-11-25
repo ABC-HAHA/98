@@ -1,0 +1,20 @@
+{
+  "softinputNavBar": "none",
+  "navigationBarTitleText": "设置昵称",
+  "scrollIndicator": "none",
+  "titleNView": {
+    "splitLine": {
+      "color": "#C1C1C1",
+      "height": "1px"
+    },
+    "buttons": [
+      {
+        "text": "保存",
+        "fontSize": "14px",
+        "color": "#248ADF",
+        "width": "60px"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

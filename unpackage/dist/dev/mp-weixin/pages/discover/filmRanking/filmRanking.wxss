@@ -1,0 +1,196 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* tab bar */
+.filerank-tab-bar{
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-flex: 1;
+		-webkit-flex: 1;
+		    -ms-flex: 1;
+		        flex: 1;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		overflow: hidden;
+		height: 100%;
+}
+.filerank-swiper-tab {
+		padding-top: -20rpx;
+		width: 100%;
+		position: fixed;
+		white-space: nowrap;
+		/* line-height: 100upx; */
+		height: 88rpx;
+		z-index: 10;
+		background-color: #FFFFFF;
+		/* border-bottom: 1px solid #c8c7cc; */
+}
+.filerank-swiper-border{
+		/* flex: 1; */
+		border-radius:5px;
+		width:38rpx;
+		margin:10rpx auto;
+		border:10rpx;
+		size:10rpx;
+		 noshade:true;
+		/* height: 0; */
+		border-top: 2px solid #FFFFFF;
+		border-bottom: 2px solid #FFFFFF;
+}
+.filerank-tab-list {
+		font-size: 30rpx;
+		/* width: 120upx; */
+		font-weight:bold;
+		display: inline-block;
+		text-align: center;
+		color: #555;
+		margin-left: 50rpx;
+		/* border-left: 1px solid #555; */
+}
+.uni-tab-bar .active {
+		color: #248ADF;
+		font-size: 36rpx;
+}
+.filerank-swiper-border.active {
+		border-top: 3px solid #248ADF;
+		border-bottom: 3px solid #248ADF;
+}
+.listMovie{
+		margin-top: 100rpx;
+		z-index: 5;
+}
+.uni-tab-bar-loading {
+		text-align: center;
+		font-size: 35rpx;
+		color: #999;
+}
+swiper{
+height:5000px
+}
+	/* swiper-item{
+height:200px //这里可以设置比上面高度小（留出大标语位置）或者设置一样大
+} */
+

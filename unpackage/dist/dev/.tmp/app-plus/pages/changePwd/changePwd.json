@@ -1,0 +1,11 @@
+{
+  "softinputNavBar": "none",
+  "navigationBarTitleText": "修改密码",
+  "titleNView": {
+    "splitLine": {
+      "color": "#C1C1C1",
+      "height": "1px"
+    }
+  },
+  "usingComponents": {}
+}

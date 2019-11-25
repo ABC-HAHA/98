@@ -1,0 +1,8 @@
+
+.uni-tab-bar-loading {
+		text-align: center;
+		font-size: 35rpx;
+		color: #999;
+}
+
+

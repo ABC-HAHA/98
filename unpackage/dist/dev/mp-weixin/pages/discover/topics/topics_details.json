@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "专题详情页",
+  "usingComponents": {
+    "input_detail": "/pages/discover/topics/input_detail",
+    "comm-item": "/pages/playPage/commentItem"
+  }
+}
