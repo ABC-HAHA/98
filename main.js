@@ -10,8 +10,8 @@ Vue.prototype.$store = store
 // Vue.prototype.websiteUrl = 'http://192.168.5.81:8080';
 // Vue.prototype.websiteUrl = 'http://192.168.5.101:8000';
 // Vue.prototype.websiteUrl = 'http://192.168.5.103:8000';
-Vue.prototype.websiteUrl = 'http://192.168.5.254:8080/98video';
-// Vue.prototype.websiteUrl = 'http://1188xy.cn/98video';
+// Vue.prototype.websiteUrl = 'http://192.168.5.254:8080/98video';
+Vue.prototype.websiteUrl = 'http://1188xy.cn/98video';
 
 Vue.config.productionTip = false
 

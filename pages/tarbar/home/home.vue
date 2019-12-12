@@ -30,6 +30,7 @@
                 autoplay: false,
 				tabList: [],
 				info: [],
+				adverinfo:[],//广告
                 nums: 0,
 				module: [],
 				moreArray: [],
@@ -66,6 +67,20 @@
 					success: res => {
 						this.selectArray = res.data
 						this.info = this.selectArray.image;
+						//处理广告，加入轮播图数组
+						this.adverinfo=this.selectArray.image1;
+						let obj={}
+						for (var i=0;i<this.adverinfo.length;i++) {
+							obj.typeId=this.adverinfo[i].advertId;
+							obj.type_id_1="";
+							obj.vodId="";
+							obj.vodName="";
+							obj.vodPicThumb="";
+							obj.vodPic=this.adverinfo[i].advertPath;
+							obj.vodRemarks="";
+							obj.advertUrl=this.adverinfo[i].advertUrl;
+						}
+						this.info.push(obj)
 						this.module = this.selectArray.modle;
                         this.title = this.selectArray.searchTitle;
                         if (this.selectArray.starMovie) {
@@ -131,6 +146,20 @@
 					success: res => {
 						this.tabList = res.data.tablist;
 						this.info = this.tabList[this.TabCur].image;
+						//处理广告，加入轮播图数组
+						this.adverinfo=res.data.image1;
+						let obj={}
+						for (var i=0;i<this.adverinfo.length;i++) {
+							obj.typeId=this.adverinfo[i].advertId;
+							obj.type_id_1="";
+							obj.vodId="";
+							obj.vodName="";
+							obj.vodPicThumb="";
+							obj.vodPic=this.adverinfo[i].advertPath;
+							obj.vodRemarks="";
+							obj.advertUrl=this.adverinfo[i].advertUrl;
+						}
+						this.info.push(obj)
 						this.module = this.tabList[this.TabCur].module;
                         this.title = this.tabList[this.TabCur].searchTitle;
                         if (this.tabList[this.TabCur].star) {
