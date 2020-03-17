@@ -16,18 +16,15 @@ page{
 .mine_head_login{
         display: -webkit-box;
         display: -webkit-flex;
-        display: -ms-flexbox;
         display: flex;
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
         -webkit-flex-direction: row;
-            -ms-flex-direction: row;
                 flex-direction: row;
         margin-left: 30rpx;
         line-height: 50rpx;
         -webkit-box-align: center;
         -webkit-align-items: center;
-            -ms-flex-align: center;
                 align-items: center;
 }
 .mine_head_news{
@@ -58,22 +55,18 @@ page{
 .mine_list{
         display: -webkit-box;
         display: -webkit-flex;
-        display: -ms-flexbox;
         display: flex;
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
         -webkit-flex-direction: row;
-            -ms-flex-direction: row;
                 flex-direction: row;
         width:750rpx;
         height:192rpx;
        -webkit-box-pack: center;
        -webkit-justify-content: center;
-           -ms-flex-pack: center;
                justify-content: center;
        -webkit-box-align: center;
        -webkit-align-items: center;
-           -ms-flex-align: center;
                align-items: center;
 }
 .mine_item{
@@ -82,39 +75,32 @@ page{
 .mine_image_backGround{
         display: -webkit-box;
         display: -webkit-flex;
-        display: -ms-flexbox;
         display: flex;
         width:92rpx;
         height:92rpx;
         border-radius:50%;
         -webkit-box-align: center;
         -webkit-align-items: center;
-            -ms-flex-align: center;
                 align-items: center;
         -webkit-box-pack: center;
         -webkit-justify-content: center;
-            -ms-flex-pack: center;
                 justify-content: center;
         margin:0 auto;
 }
 .mine_image_backGround_coin{
-        background:-webkit-gradient(linear,left bottom, left top,from(rgba(250,209,95,1)),to(rgba(228,143,75,1)));
-        background:-o-linear-gradient(bottom,rgba(250,209,95,1),rgba(228,143,75,1));
+        background:-webkit-linear-gradient(bottom,rgba(250,209,95,1),rgba(228,143,75,1));
         background:linear-gradient(0deg,rgba(250,209,95,1),rgba(228,143,75,1));
 }
 .mine_image_backGround_task{
-        background:-webkit-gradient(linear,left bottom, left top,from(rgba(126,76,201,1)),to(rgba(168,110,215,1)));
-        background:-o-linear-gradient(bottom,rgba(126,76,201,1),rgba(168,110,215,1));
+        background:-webkit-linear-gradient(bottom,rgba(126,76,201,1),rgba(168,110,215,1));
         background:linear-gradient(0deg,rgba(126,76,201,1),rgba(168,110,215,1));
 }
 .mine_image_backGround_exchange{
-        background:-webkit-gradient(linear,left bottom, left top,from(rgba(250,71,113,1)),to(rgba(252,102,111,1)));
-        background:-o-linear-gradient(bottom,rgba(250,71,113,1),rgba(252,102,111,1));
+        background:-webkit-linear-gradient(bottom,rgba(250,71,113,1),rgba(252,102,111,1));
         background:linear-gradient(0deg,rgba(250,71,113,1),rgba(252,102,111,1));
 }
 .mine_image_backGround_friend{
-        background:-webkit-gradient(linear,left bottom, left top,from(rgba(64,118,241,1)),to(rgba(74,156,248,1)));
-        background:-o-linear-gradient(bottom,rgba(64,118,241,1),rgba(74,156,248,1));
+        background:-webkit-linear-gradient(bottom,rgba(64,118,241,1),rgba(74,156,248,1));
         background:linear-gradient(0deg,rgba(64,118,241,1),rgba(74,156,248,1));
 }
 .mine_image{
@@ -125,7 +111,6 @@ page{
         padding-top: 10rpx;
         display: -webkit-box;
         display: -webkit-flex;
-        display: -ms-flexbox;
         display: flex;
         width:120rpx;
         margin:0 auto;
@@ -148,27 +133,22 @@ page{
 .play_records_head{
         display: -webkit-box;
         display: -webkit-flex;
-        display: -ms-flexbox;
         display: flex;
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
         -webkit-flex-direction: row;
-            -ms-flex-direction: row;
                 flex-direction: row;
 }
 .play_records_more{
         display: -webkit-box;
         display: -webkit-flex;
-        display: -ms-flexbox;
         display: flex;
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
         -webkit-flex-direction: row;
-            -ms-flex-direction: row;
                 flex-direction: row;
         -webkit-box-align: center;
         -webkit-align-items: center;
-            -ms-flex-align: center;
                 align-items: center;
 }
 .records_font{
@@ -195,12 +175,10 @@ page{
 .play_records_list{
         display: -webkit-inline-box;
         display: -webkit-inline-flex;
-        display: -ms-inline-flexbox;
         display: inline-flex;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -webkit-flex-direction: column;
-            -ms-flex-direction: column;
                 flex-direction: column;
         width:210rpx;
         margin: 0 10rpx;
@@ -218,8 +196,7 @@ page{
         text-align: center;
         color:rgba(45,45,45,1);
         margin-bottom: 16rpx;
-        -o-text-overflow: ellipsis;
-           text-overflow: ellipsis;
+        text-overflow: ellipsis;
         white-space: nowrap;
         overflow: hidden;
 }
@@ -230,16 +207,13 @@ page{
 .other_list{
         display: -webkit-box;
         display: -webkit-flex;
-        display: -ms-flexbox;
         display: flex;
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
         -webkit-flex-direction: row;
-            -ms-flex-direction: row;
                 flex-direction: row;
         -webkit-box-align: center;
         -webkit-align-items: center;
-            -ms-flex-align: center;
                 align-items: center;
         margin-top: 2rpx;
         line-height: 100rpx;
@@ -261,7 +235,6 @@ page{
 .logout{
         display: -webkit-box;
         display: -webkit-flex;
-        display: -ms-flexbox;
         display: flex;
         margin-top: 20rpx;
         width:750rpx;
@@ -271,11 +244,9 @@ page{
         color:rgba(40,40,40,1);
         -webkit-box-align: center;
         -webkit-align-items: center;
-            -ms-flex-align: center;
                 align-items: center;
         -webkit-box-pack: center;
         -webkit-justify-content: center;
-            -ms-flex-pack: center;
                 justify-content: center;
 }
 

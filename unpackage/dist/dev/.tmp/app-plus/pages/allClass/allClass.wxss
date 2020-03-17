@@ -17,45 +17,36 @@
     top: 0;
     display: -webkit-box;
     display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
     z-index: 6;
     background: #FFFFFF;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
-        -ms-flex-direction: column;
             flex-direction: column;
     -webkit-box-align: start;
     -webkit-align-items: flex-start;
-        -ms-flex-align: start;
             align-items: flex-start;
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
-        -ms-flex-pack: justify;
             justify-content: space-between;
 }
 .allClass-item{
     margin-left: 30rpx;
     display: -webkit-box;
     display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
     -webkit-flex-wrap: nowrap;
-        -ms-flex-wrap: nowrap;
             flex-wrap: nowrap;
     -webkit-box-align: center;
     -webkit-align-items: center;
-        -ms-flex-align: center;
             align-items: center;
     -webkit-box-pack: start;
     -webkit-justify-content: flex-start;
-        -ms-flex-pack: start;
             justify-content: flex-start;
 }
 .allClass-item-type{
     -webkit-flex-shrink: 0;
-        -ms-flex-negative: 0;
             flex-shrink: 0;
     margin-right: 20rpx;
     font-size: 14px;
@@ -92,40 +83,31 @@
     margin: 220px auto 0;
     display: -webkit-box;
     display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
     -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
             flex-wrap: wrap;
     -webkit-box-pack: start;
     -webkit-justify-content: flex-start;
-        -ms-flex-pack: start;
             justify-content: flex-start; 
     -webkit-box-align: start; 
     -webkit-align-items: flex-start; 
-        -ms-flex-align: start; 
             align-items: flex-start;
     -webkit-align-content: space-between;
-        -ms-flex-line-pack: justify;
             align-content: space-between;
 }
 .allMovie-item{
     display: -webkit-box;
     display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
-        -ms-flex-direction: column;
             flex-direction: column;
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
-        -ms-flex-pack: justify;
             justify-content: space-between;
     -webkit-box-align: center;
     -webkit-align-items: center;
-        -ms-flex-align: center;
             align-items: center;
     margin-left: 30rpx;
     margin-bottom: 30rpx;
@@ -176,8 +158,7 @@
     font-size: 12px;
     z-index: 2;
     overflow: hidden;
-    -o-text-overflow: ellipsis;
-       text-overflow: ellipsis;
+    text-overflow: ellipsis;
     white-space: nowrap;
     background: rgba(0, 0, 0, 0.5);
 }
@@ -199,8 +180,7 @@
     font-weight: 500;
     color: #2D2D2D;
     overflow: hidden;
-    -o-text-overflow: ellipsis;
-       text-overflow: ellipsis;
+    text-overflow: ellipsis;
     white-space: nowrap;
 }
 .allMovie-item-text{
@@ -212,8 +192,7 @@
     font-weight: 500;
     color: #6B6B6B;
     overflow: hidden;
-    -o-text-overflow: ellipsis;
-       text-overflow: ellipsis;
+    text-overflow: ellipsis;
     white-space: nowrap;
 }
 .uni-loadmore{

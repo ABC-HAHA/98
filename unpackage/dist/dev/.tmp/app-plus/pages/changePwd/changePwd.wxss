@@ -3,16 +3,13 @@
     width: 100%;
     display: -webkit-box;
     display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
-        -ms-flex-direction: column;
             flex-direction: column;
     -webkit-box-align: center;
     -webkit-align-items: center;
-        -ms-flex-align: center;
             align-items: center;
     margin-top: 35rpx;
 }
@@ -29,15 +26,12 @@
     margin-top: 70rpx;
     display: -webkit-inline-box;
     display: -webkit-inline-flex;
-    display: -ms-inline-flexbox;
     display: inline-flex;
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
-        -ms-flex-pack: justify;
             justify-content: space-between;
     -webkit-box-align: center;
     -webkit-align-items: center;
-        -ms-flex-align: center;
             align-items: center;
 }
 .changePwd-old-pwd{
@@ -56,15 +50,12 @@
     margin-top: 44rpx;
     display: -webkit-inline-box;
     display: -webkit-inline-flex;
-    display: -ms-inline-flexbox;
     display: inline-flex;
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
-        -ms-flex-pack: justify;
             justify-content: space-between;
     -webkit-box-align: center;
     -webkit-align-items: center;
-        -ms-flex-align: center;
             align-items: center;
 }
 .changePwd-new-pwd{
@@ -83,15 +74,12 @@
     margin-top: 44rpx;
     display: -webkit-inline-box;
     display: -webkit-inline-flex;
-    display: -ms-inline-flexbox;
     display: inline-flex;
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
-        -ms-flex-pack: justify;
             justify-content: space-between;
     -webkit-box-align: center;
     -webkit-align-items: center;
-        -ms-flex-align: center;
             align-items: center;
 }
 .changePwd-comfire-pwd{

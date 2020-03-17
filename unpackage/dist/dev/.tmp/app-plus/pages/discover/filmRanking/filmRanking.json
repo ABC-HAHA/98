@@ -1,6 +1,6 @@
 {
+  "component": true,
   "usingComponents": {
     "film-list": "/pages/discover/filmRanking/filmList"
-  },
-  "component": true
+  }
 }

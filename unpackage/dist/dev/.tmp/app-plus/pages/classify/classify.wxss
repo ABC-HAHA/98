@@ -2,14 +2,11 @@
 .classify{
     display: -webkit-box;
     display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
     -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
             flex-wrap: wrap;
     -webkit-box-align: center;
     -webkit-align-items: center;
-        -ms-flex-align: center;
             align-items: center;
     width: 100%;
 }
@@ -18,20 +15,16 @@
     height: 248rpx;
     display: -webkit-inline-box;
     display: -webkit-inline-flex;
-    display: -ms-inline-flexbox;
     display: inline-flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
-        -ms-flex-direction: column;
             flex-direction: column;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
-        -ms-flex-pack: center;
             justify-content: center;
     -webkit-box-align: center;
     -webkit-align-items: center;
-        -ms-flex-align: center;
             align-items: center;
     border-bottom: 1rpx solid #E3E3E3;
     border-right: 1rpx solid #E3E3E3;

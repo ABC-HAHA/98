@@ -12,11 +12,9 @@ page, .video{
     height: 44px;
     display: -webkit-box;
     display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
     -webkit-align-items: center;
-        -ms-flex-align: center;
             align-items: center;
     position: absolute;
     top: -44px;
@@ -24,7 +22,6 @@ page, .video{
     z-index: 2048;
     background: rgba(0, 0, 0, 0.5);
     -webkit-transition: top 0.5s;
-    -o-transition: top 0.5s;
     transition: top 0.5s;
 }
 .goBack.show{

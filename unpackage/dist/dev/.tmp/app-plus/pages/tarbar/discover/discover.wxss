@@ -248,16 +248,13 @@
 .uni-tab-bar {
 	display: -webkit-box;
 	display: -webkit-flex;
-	display: -ms-flexbox;
 	display: flex;
 	-webkit-box-flex: 1;
 	-webkit-flex: 1;
-	    -ms-flex: 1;
 	        flex: 1;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
 	-webkit-flex-direction: column;
-	    -ms-flex-direction: column;
 	        flex-direction: column;
 	overflow: hidden;
 	/* margin-top: 50upx; */
@@ -291,7 +288,6 @@
 .uni-swiper-border{
 	-webkit-box-flex: 1;
 	-webkit-flex: 1;
-	    -ms-flex: 1;
 	        flex: 1;
 	width:137rpx;
 	margin:30rpx auto;
@@ -310,7 +306,6 @@
 .uni-tab-bar .swiper-box {
 	-webkit-box-flex: 1;
 	-webkit-flex: 1;
-	    -ms-flex: 1;
 	        flex: 1;
 	width: 100%;
 	height: calc(100% - 100rpx);

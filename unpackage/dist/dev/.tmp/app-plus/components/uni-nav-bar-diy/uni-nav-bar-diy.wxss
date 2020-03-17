@@ -8,8 +8,7 @@
         z-index: 1025;
 }
 .uni-navbar-shadow {
-        -webkit-box-shadow: 0 1px 6px #ccc;
-                box-shadow: 0 1px 6px #ccc;
+        box-shadow: 0 1px 6px #ccc;
 }
 .uni-navbar.uni-navbar-fixed {
         position: fixed;
@@ -19,16 +18,13 @@
 .uni-navbar-header {
         display: -webkit-box;
         display: -webkit-flex;
-        display: -ms-flexbox;
         display: flex;
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
         -webkit-flex-direction: row;
-            -ms-flex-direction: row;
                 flex-direction: row;
         -webkit-box-align: center;
         -webkit-align-items: center;
-            -ms-flex-align: center;
                 align-items: center;
         width: 100%;
         height:62rpx;
@@ -37,17 +33,13 @@
 .uni-navbar-header .uni-navbar-header-btns{
 		display:-webkit-inline-box;
 		display:-webkit-inline-flex;
-		display:-ms-inline-flexbox;
 		display:inline-flex;
 		-webkit-flex-wrap:nowrap;
-		    -ms-flex-wrap:nowrap;
 		        flex-wrap:nowrap;
 		-webkit-flex-shrink:0;
-		    -ms-flex-negative:0;
 		        flex-shrink:0;
         -webkit-box-align: center;
         -webkit-align-items: center;
-            -ms-flex-align: center;
                 align-items: center;
 		width: 66rpx;
         height: 62rpx;
@@ -56,21 +48,16 @@
 .uni-navbar-btns{
         display:-webkit-inline-box;
         display:-webkit-inline-flex;
-        display:-ms-inline-flexbox;
         display:inline-flex;
         -webkit-flex-wrap:nowrap;
-            -ms-flex-wrap:nowrap;
                 flex-wrap:nowrap;
         -webkit-flex-shrink:0;
-            -ms-flex-negative:0;
                 flex-shrink:0;
         -webkit-box-align: center;
         -webkit-align-items: center;
-            -ms-flex-align: center;
                 align-items: center;
         -webkit-box-pack: center;
         -webkit-justify-content: center;
-            -ms-flex-pack: center;
                 justify-content: center;
         width: 94rpx;
         height: 26rpx;

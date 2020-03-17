@@ -4,16 +4,13 @@
     margin-top: 72rpx;
     display: -webkit-box;
     display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
     -webkit-align-items: center;
-        -ms-flex-align: center;
             align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
-        -ms-flex-direction: column;
             flex-direction: column;
 }
 .rforget_password input{
@@ -25,15 +22,12 @@
     border-bottom: 1rpx solid #BFBFBF;
     display: -webkit-inline-box;
     display: -webkit-inline-flex;
-    display: -ms-inline-flexbox;
     display: inline-flex;
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
-        -ms-flex-pack: justify;
             justify-content: space-between;
     -webkit-box-align: center;
     -webkit-align-items: center;
-        -ms-flex-align: center;
             align-items: center;
 }
 .forget_password_send{
@@ -51,11 +45,9 @@
     border-bottom: 1rpx solid #BFBFBF;
     display: -webkit-inline-box;
     display: -webkit-inline-flex;
-    display: -ms-inline-flexbox;
     display: inline-flex;
     -webkit-box-align: center;
     -webkit-align-items: center;
-        -ms-flex-align: center;
             align-items: center;
 }
 .forget_password_new{
@@ -65,11 +57,9 @@
     border-bottom: 1rpx solid #BFBFBF;
     display: -webkit-inline-box;
     display: -webkit-inline-flex;
-    display: -ms-inline-flexbox;
     display: inline-flex;
     -webkit-box-align: center;
     -webkit-align-items: center;
-        -ms-flex-align: center;
             align-items: center;
 }
 .forget_password_new>input{
@@ -82,11 +72,9 @@
     border-bottom: 1rpx solid #BFBFBF;
     display: -webkit-inline-box;
     display: -webkit-inline-flex;
-    display: -ms-inline-flexbox;
     display: inline-flex;
     -webkit-box-align: center;
     -webkit-align-items: center;
-        -ms-flex-align: center;
             align-items: center;
 }
 .forget_password_btn{
